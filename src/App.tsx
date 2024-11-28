@@ -107,8 +107,8 @@ function App() {
               projects={[
                 {
                   name: 'Attention-Based CNN for Embedded ECG Signals Classification',
-                  link: 'https://github.com/Madusha95/',
-                  type: 'github',
+                  link: 'https://drive.google.com/file/d/1890iElypqFqaa5rdztucgBCeWWqgdueR/view?usp=sharing',
+                  type: 'drive',
                 },
               ]}
             />
@@ -122,6 +122,11 @@ function App() {
                   link: 'https://github.com/Madusha95/Smart-Home-',
                   type: 'github',
                 },
+                {
+                  name: 'Automated Home using IoT and Neural Networks',
+                  link: 'https://drive.google.com/file/d/18kMM1u0V96bQ8GSUHwiO6RVVVsJYP-Gf/view?usp=sharing',
+                  type: 'drive',
+                },
               ]}
             />
             <ProjectCard
@@ -131,14 +136,24 @@ function App() {
               projects={[
                 {
                   name: 'CPU(VHDL)',
-                  link: 'https://github.com/Madusha95/FPGA',
+                  link: 'https://github.com/Madusha95/FPGA/tree/main/CPU(VHDL)',
+                  type: 'github',
+                },
+                {
+                  name: 'Counters(Verilog)',
+                  link: 'https://github.com/Madusha95/FPGA/tree/main/Counters(Verilog)',
+                  type: 'github',
+                },
+                {
+                  name: 'Tail Light Controller Circuit(Verilog)',
+                  link: 'https://github.com/Madusha95/FPGA/tree/main/Tail%20Light%20Controller%20Circuit(Verilog)',
                   type: 'github',
                 },
               ]}
             />
             <ProjectCard
               title="RTOS Projects"
-              description="Smart devices with real-time operating systems, leveraging Arduino, Raspberry Pi, and seamless cloud integration"
+              description="Smart devices with real-time operating systems, leveraging Arduino, Raspberry Pi,NodeMCU(ESP32/ESP8266) and seamless cloud integration"
               image={rtosImage}
               projects={[
                 {
@@ -166,19 +181,24 @@ function App() {
               ]}
             />
             <ProjectCard
-              title="Robotics Projects"
+              title="Embedded Projects"
               description="Autonomous robotics systems and control implementations"
               image={roboticImage}
               projects={[
                 {
                   name: 'Cold End Coating Machine',
-                  link: 'https://github.com/Madusha95/line-follower',
-                  type: 'github',
+                  link: 'https://drive.google.com/file/d/1s-F19a1plmIHHw8zf7VwM4dbharo_5NH/view?usp=sharing',
+                  type: 'drive',
                 },
                 {
                   name: 'Obstacle Avoiding Robot Using AI',
-                  link: '',
-                  type: 'pdf',
+                  link: 'https://drive.google.com/file/d/1glIpEFi3FiHmYAz5NUYZFB8qyEAULn_X/view?usp=sharing',
+                  type: 'drive',
+                },
+                {
+                  name: 'Liquid Color Measurement Using PIC Microcontroller',
+                  link: 'https://drive.google.com/file/d/1EgdJgReEUmcM6wKmrOY8siluxLm6pvK1/view?usp=sharing',
+                  type: 'drive',
                 },
               ]}
             />
@@ -192,6 +212,16 @@ function App() {
                   link: 'https://github.com/Madusha95/object-detection',
                   type: 'github',
                 },
+                {
+                  name: 'Attention-Based CNN for Embedded ECG Signals Classification',
+                  link: 'https://github.com/Madusha95/',
+                  type: 'github',
+                },
+                {
+                  name: 'Automated Home using IoT and Neural Networks',
+                  link: 'https://github.com/Madusha95/Smart-Home-',
+                  type: 'github',
+                },
               ]}
             />
             <ProjectCard
@@ -201,8 +231,18 @@ function App() {
               projects={[
                 {
                   name: 'Mesh Network using NodeMCUs',
-                  link: 'https://github.com/Madusha95/lora-network',
-                  type: 'github',
+                  link: 'https://drive.google.com/file/d/1YFJ4xKCt5tiA6JPk2cB2A-L3763cECdg/view?usp=sharing',
+                  type: 'drive',
+                },
+                {
+                  name: 'MIMO System using MATLAB',
+                  link: 'https://drive.google.com/file/d/1z3K1jxMBbtNelE56qeK2t1D-suwA8DhQ/view?usp=sharing',
+                  type: 'drive',
+                },
+                {
+                  name: 'PLL System using MATLAB',
+                  link: 'https://drive.google.com/file/d/1LOWVFG8nYx1OnUEijC9m2MjX2kKLnXom/view?usp=sharing',
+                  type: 'drive',
                 },
               ]}
             />
@@ -213,8 +253,13 @@ function App() {
               projects={[
                 {
                   name: 'PCB Designs for Vending Machines',
-                  link: 'https://github.com/Madusha95/lora-network',
-                  type: 'github',
+                  link: 'https://drive.google.com/file/d/10USjkVylxSnDXytf9d6TYuApZ6CoKTdK/view?usp=sharing',
+                  type: 'drive',
+                },
+                {
+                  name: '3-Digit Decimal Up/Down Counter Circuit',
+                  link: 'https://drive.google.com/file/d/1hPKfzQl5nJvdxHeKznQ55M0o2kz5FD0g/view?usp=sharing',
+                  type: 'drive',
                 },
               ]}
             />
@@ -227,6 +272,11 @@ function App() {
                   name: 'Technical Web Applications for IPDgroup(React JS/Angular JS)',
                   link: '',
                   type: 'pdf',
+                },
+                {
+                  name: 'MyWebsite(React)',
+                  link: 'https://github.com/Madusha95/myWebV1',
+                  type: 'github',
                 },
               ]}
             />

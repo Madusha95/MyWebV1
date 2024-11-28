@@ -8,7 +8,7 @@ interface ProjectCardProps {
   projects: {
     name: string;
     link: string;
-    type: 'github' | 'pdf';
+    type: 'github' | 'pdf' |' drive';
   }[];
 }
 
