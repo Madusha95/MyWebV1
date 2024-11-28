@@ -5,6 +5,23 @@ import ProjectCard from './components/ProjectCard';
 import SkillSection from './components/SkillSection';
 import DownloadSection from './components/DownloadSection';
 
+// Importing images from the assets folder
+import madushaImage from './assets/Madusha.jpg';
+import mscImage from './assets/MSC.jpg';
+import mengImage from './assets/MENG.jpg';
+import fpgaImage from './assets/FPGA.jpg';
+import rtosImage from './assets/RTOS.jpg';
+import iotImage from './assets/IoT.jpg';
+import roboticImage from './assets/Robotic.jpg';
+import aiImage from './assets/AI.jpg';
+import csImage from './assets/CS.jpg';
+import pcbImage from './assets/PCB.jpg';
+import webImage from './assets/Web.jpg';
+
+// Importing PDFs from the assets folder
+import cvPdf from './assets/Madusha_Suraweera_CV.pdf';
+import resumePdf from './assets/Madusha_Suraweera_Resume.pdf';
+
 function App() {
   return (
     <div className="min-h-screen bg-black">
@@ -16,7 +33,7 @@ function App() {
           <div className="mb-8 relative inline-block">
             <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-blue-600 shadow-xl mx-auto">
               <img
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&h=400&q=80"
+                src={madushaImage}
                 alt="Madusha Suraweera"
                 className="w-full h-full object-cover"
               />
@@ -69,23 +86,25 @@ function App() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
-              title="PCB Design"
-              description="Custom PCB designs for various electronic projects including schematics and board layouts"
-              image="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=800&q=80"
+              title="MSc Project"
+              description="Attention-Based CNN for Embedded ECG Signals Classification"
+              image={mscImage}
               projects={[
                 {
-                  name: 'Project 1: Motor Controller',
-                  link: 'https://github.com/Madusha95/motor-controller',
+                  name: 'Attention-Based CNN for Embedded ECG Signals Classification',
+                  link: 'https://github.com/Madusha95/',
                   type: 'github',
                 },
+              ]}
+            />
+            <ProjectCard
+              title="MENG Project"
+              description="Automated Home using IoT and Neural Networks"
+              image={mengImage}
+              projects={[
                 {
-                  name: 'Project 2: Sensor Board',
-                  link: '/path-to-your-pdf.pdf',
-                  type: 'pdf',
-                },
-                {
-                  name: 'Project 3: Power Supply',
-                  link: 'https://github.com/Madusha95/power-supply',
+                  name: 'Automated Home using IoT and Neural Networks',
+                  link: 'https://github.com/Madusha95/Smart-Home-',
                   type: 'github',
                 },
               ]}
@@ -93,33 +112,40 @@ function App() {
             <ProjectCard
               title="FPGA Projects"
               description="Digital design implementations using VHDL and Verilog for various applications"
-              image="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
+              image={fpgaImage}
               projects={[
                 {
-                  name: 'UART Implementation',
-                  link: 'https://github.com/Madusha95/uart-fpga',
+                  name: 'CPU(VHDL)',
+                  link: 'https://github.com/Madusha95/FPGA',
                   type: 'github',
                 },
+              ]}
+            />
+            <ProjectCard
+              title="RTOS Projects"
+              description="Smart devices with real-time operating systems, leveraging Arduino, Raspberry Pi, and seamless cloud integration"
+              image={rtosImage}
+              projects={[
                 {
-                  name: 'Digital Filter Design',
-                  link: '/path-to-filter-doc.pdf',
-                  type: 'pdf',
+                  name: 'FreeRTOS Projects',
+                  link: 'https://github.com/Madusha95/RTOS',
+                  type: 'github',
                 },
               ]}
             />
             <ProjectCard
               title="IoT Solutions"
               description="Smart device implementations using Arduino, Raspberry Pi, and cloud integration"
-              image="https://images.unsplash.com/photo-1557324232-b8917d8c3908?auto=format&fit=crop&w=800&q=80"
+              image={iotImage}
               projects={[
                 {
-                  name: 'Smart Home System',
-                  link: 'https://github.com/Madusha95/smart-home',
-                  type: 'github',
+                  name: 'GSM and IoT Based Weather Monitoring System',
+                  link: '',
+                  type: 'pdf',
                 },
                 {
-                  name: 'Weather Station',
-                  link: '/path-to-weather-doc.pdf',
+                  name: 'Sensors Data Acquisition systems using Node-Red and APIs',
+                  link: '',
                   type: 'pdf',
                 },
               ]}
@@ -127,43 +153,28 @@ function App() {
             <ProjectCard
               title="Robotics Projects"
               description="Autonomous robotics systems and control implementations"
-              image="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=800&q=80"
+              image={roboticImage}
               projects={[
                 {
-                  name: 'Line Following Robot',
+                  name: 'Cold End Coating Machine',
                   link: 'https://github.com/Madusha95/line-follower',
                   type: 'github',
                 },
                 {
-                  name: 'Robotic Arm Control',
-                  link: '/robotics/arm-control.pdf',
+                  name: 'Obstacle Avoiding Robot Using AI',
+                  link: '',
                   type: 'pdf',
-                },
-                {
-                  name: 'Autonomous Navigation',
-                  link: 'https://github.com/Madusha95/autonomous-nav',
-                  type: 'github',
                 },
               ]}
             />
             <ProjectCard
               title="AI/ML Applications"
               description="Machine learning and computer vision projects for embedded systems"
-              image="https://images.unsplash.com/photo-1555255707-c07966088b7b?auto=format&fit=crop&w=800&q=80"
+              image={aiImage}
               projects={[
                 {
-                  name: 'Object Detection System',
+                  name: 'Chat bot using Graph Database(Neo4j)',
                   link: 'https://github.com/Madusha95/object-detection',
-                  type: 'github',
-                },
-                {
-                  name: 'Edge AI Implementation',
-                  link: '/ai-projects/edge-ai.pdf',
-                  type: 'pdf',
-                },
-                {
-                  name: 'Predictive Maintenance',
-                  link: 'https://github.com/Madusha95/predictive-maintenance',
                   type: 'github',
                 },
               ]}
@@ -171,22 +182,36 @@ function App() {
             <ProjectCard
               title="Communication Systems"
               description="RF and wireless communication system implementations"
-              image="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80"
+              image={csImage}
               projects={[
                 {
-                  name: 'LoRa Network Implementation',
+                  name: 'Mesh Network using NodeMCUs',
                   link: 'https://github.com/Madusha95/lora-network',
                   type: 'github',
                 },
+              ]}
+            />
+            <ProjectCard
+              title="PCB Design"
+              description="Expertise in designing PCB for Embedded Systems"
+              image={pcbImage}
+              projects={[
                 {
-                  name: 'RF Module Design',
-                  link: '/communications/rf-module.pdf',
-                  type: 'pdf',
-                },
-                {
-                  name: 'Wireless Sensor Network',
-                  link: 'https://github.com/Madusha95/wsn-project',
+                  name: 'PCB Designs for Vending Machines',
+                  link: 'https://github.com/Madusha95/lora-network',
                   type: 'github',
+                },
+              ]}
+            />
+            <ProjectCard
+              title="Web Applications"
+              description="Web Applications using React JS and Angular JS"
+              image={webImage}
+              projects={[
+                {
+                  name: 'Technical Web Applications for IPDgroup(React JS/Angular JS)',
+                  link: '',
+                  type: 'pdf',
                 },
               ]}
             />
@@ -202,7 +227,7 @@ function App() {
         id="cv"
         title="Curriculum Vitae"
         description="Download my detailed CV to learn more about my professional experience, education, and achievements."
-        downloadLink="/Share/Madusha_Suraweera_CV.pdf"
+        downloadLink={cvPdf}
         buttonText="Download CV"
         openInNewTab={true}
       />
@@ -212,7 +237,7 @@ function App() {
         id="resume"
         title="Resume"
         description="Get a concise overview of my skills and experience with my one-page resume."
-        downloadLink="/Share/Madusha_Suraweera_Resume.pdf"
+        downloadLink={resumePdf}
         buttonText="Download Resume"
         openInNewTab={true}
       />
