@@ -209,7 +209,7 @@ function App() {
               projects={[
                 {
                   name: 'Chat bot using Graph Database(Neo4j)',
-                  link: 'https://github.com/Madusha95/object-detection',
+                  link: 'https://github.com/Madusha95/neo4jChatbot',
                   type: 'github',
                 },
                 {
