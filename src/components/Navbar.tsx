@@ -26,6 +26,7 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
+            <NavLink href="#about">About</NavLink>
             <NavLink href="#projects">Projects</NavLink>
             <NavLink href="#skills">Skills</NavLink>
             <NavLink href="#cv">CV</NavLink>
@@ -46,6 +47,9 @@ const Navbar = () => {
         {isMenuOpen && (
           <div className="md:hidden absolute top-full left-0 right-0 bg-black shadow-lg py-4">
             <div className="flex flex-col space-y-4 px-4">
+              <MobileNavLink href="#about" onClick={() => setIsMenuOpen(false)}>
+                About
+              </MobileNavLink>
               <MobileNavLink href="#projects" onClick={() => setIsMenuOpen(false)}>
                 Projects
               </MobileNavLink>

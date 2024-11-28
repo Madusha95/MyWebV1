@@ -1,9 +1,14 @@
 import React from 'react';
 import { Github, Linkedin, Mail, Phone, ChevronDown } from 'lucide-react';
 import Navbar from './components/Navbar';
+
 import ProjectCard from './components/ProjectCard';
+import AboutSection from './components/AboutSection';
 import SkillSection from './components/SkillSection';
 import DownloadSection from './components/DownloadSection';
+import EducationSection from './components/EducationSection';
+import ExperienceSection from './components/ExperienceSection';
+import CoursesSection from './components/CoursesSection';
 
 // Importing images from the assets folder
 import madushaImage from './assets/Madusha.jpg';
@@ -77,7 +82,17 @@ function App() {
           </div>
         </div>
       </section>
+       {/* About Section */}
+       <AboutSection />
 
+       {/* Experience Section */}
+       <ExperienceSection />
+
+       {/* Education Section */}
+       <EducationSection />
+
+       {/* Courses Section */}
+      <CoursesSection />
       {/* Projects Section */}
       <section className="py-20 px-4 bg-gray-900" id="projects">
         <div className="max-w-6xl mx-auto">
