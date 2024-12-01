@@ -45,7 +45,7 @@ const SkillSection = () => {
     },
     {
       title: "AI and Machine Learning",
-      skills: ["TensorFlow", "PyTorch"]
+      skills: ["TensorFlow", "PyTorch","Langchain"]
     },
     {
       title: "Software Development",

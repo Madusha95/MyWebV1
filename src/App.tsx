@@ -25,7 +25,7 @@ import webImage from './assets/Web.jpg';
 
 // Importing PDFs from the assets folder
 import cvPdf from './assets/Madusha_Suraweera_CV.pdf';
-import resumePdf from './assets/Madusha_Suraweera_Resume.pdf';
+import resumePdf from './assets/Madusha_Resume.pdf';
 
 function App() {
   return (
@@ -113,7 +113,7 @@ function App() {
               ]}
             />
             <ProjectCard
-              title="MENG Project"
+              title="MEng Project"
               description="Automated Home using IoT and Neural Networks"
               image={mengImage}
               projects={[
