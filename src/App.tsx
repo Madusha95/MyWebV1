@@ -161,6 +161,11 @@ function App() {
                   link: 'https://github.com/Madusha95/RTOS',
                   type: 'github',
                 },
+                {
+                  name: 'Real-Time Embedded System Design Using ESP32 and Multi-Sensor Integration(FreeRTOS)',
+                  link: 'https://github.com/Madusha95/Embedded_Systems-freeRTOS-',
+                  type: 'github',
+                }
               ]}
             />
             <ProjectCard
