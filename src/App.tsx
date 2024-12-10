@@ -175,8 +175,8 @@ function App() {
               projects={[
                 {
                   name: 'GSM and IoT Based Weather Monitoring System',
-                  link: '',
-                  type: 'pdf',
+                  link: 'https://drive.google.com/file/d/1rvFGW6J2fDiSKIfHqN0UecOoykQERDy4/view?usp=sharing',
+                  type: 'Drive',
                 },
                 {
                   name: 'Sensors Data Acquisition systems using Node-Red and APIs',

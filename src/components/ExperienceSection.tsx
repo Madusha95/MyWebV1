@@ -70,7 +70,7 @@ const ExperienceSection = () => {
             title="Electronic Engineer"
             company="East Link Engineering Company (Pvt) Ltd"
             location="Colombo 05, Sri Lanka"
-            period="09/2021 - 12/2022"
+            period="03/2021 - 12/2022"
             responsibilities={[
               {
                 main: "Participated in RnD Projects including:",
