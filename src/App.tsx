@@ -24,8 +24,8 @@ import pcbImage from './assets/PCB.jpg';
 import webImage from './assets/Web.jpg';
 
 // Importing PDFs from the assets folder
-import cvPdf from './assets/Madusha_Suraweera_CV.pdf';
-import resumePdf from './assets/Madusha_Resume.pdf';
+import cvPdf from './assets/CV_Embedded_Madusha_Suraweera.pdf';
+import resumePdf from './assets/Madusha_Suraweera_Resume.pdf';
 
 function App() {
   return (

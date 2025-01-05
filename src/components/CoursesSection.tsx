@@ -32,6 +32,31 @@ const CourseItem = ({ platform, title, date }: CourseItemProps) => (
 const CoursesSection = () => {
   const courses = [
     {
+      platform: 'Linkedin',
+      title: 'Embedded C',
+      date: 'January 2025'
+    },
+    {
+      platform: 'Linkedin',
+      title: 'Learning Altium',
+      date: 'January 2025'
+    },
+    {
+      platform: 'Linkedin',
+      title: 'LLaMa for Developers',
+      date: 'January 2025'
+    },
+    {
+      platform: 'Neo4J',
+      title: 'Introduction to Vector Indexes and Unstructured Data',
+      date: 'October 2024'
+    },
+    {
+      platform: 'Neo4J',
+      title: 'Build a Neo4j-backed Chatbot using Python',
+      date: 'October 2024'
+    },
+    {
       platform: 'Neo4J',
       title: 'Neo4j and LLM Fundamentals',
       date: 'October 2024'

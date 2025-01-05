@@ -60,9 +60,10 @@ const ExperienceSection = () => {
             location="Colombo 05, Sri Lanka"
             period="01/2023 - Present"
             responsibilities={[
-              "Working on AI and IoT Projects (Building Management Systems and Chat Bots).",
-              "Engaging in RnD Projects (Arduino and Raspberry Pi).",
-              "Performing CI/CD Operations."
+              "Working on IPD Projects in Australia.",
+              "Designing and implementing AI and IoT solutions, such as Building Management Systems(BMS) and chatbots(Azure and Neo4J).",
+              "Conducting RnD initiatives using platforms like Arduino and Raspberry Pi.",
+              "Streamlining development processes by leading CI/CD operations."
             ]}
           />
 

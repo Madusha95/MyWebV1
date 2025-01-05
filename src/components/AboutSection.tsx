@@ -19,10 +19,7 @@ const AboutSection = () => {
             
             <div className="space-y-6">
               <p className="text-gray-300 leading-relaxed">
-                Experienced and self-motivated engineer with over 4 years of expertise in Electronics and Embedded Engineering,
-                complemented by an MEng in Electronic and Electrical Engineering from the University of the West of England.
-                Currently pursuing an MSc in Embedded Systems and IC Design to further refine skills in embedded systems and
-                integrated circuits.
+              Experienced and self-motivated engineer with over 4 years of expertise in Electronics, Embedded Engineering, AI, and Machine Learning. Holds an MSc in Embedded Systems and IC Design from Liverpool John Moores University and an MEng in Electronic and Electrical Engineering from the University of the West of England.
               </p>
               
               <p className="text-gray-300 leading-relaxed">

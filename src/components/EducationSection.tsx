@@ -50,6 +50,9 @@ const EducationSection = () => {
             university="Liverpool John Moores University"
             location="UK"
             period="2023 - 2025"
+            details={[
+              "Completed degree with Distinction",
+            ]}
           />
           
           <EducationItem
